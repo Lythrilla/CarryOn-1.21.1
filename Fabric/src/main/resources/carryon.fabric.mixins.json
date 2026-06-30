@@ -1,0 +1,18 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "tschipp.carryon.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "PlayerMixinFabric"
+    ],
+    "client": [
+      "ItemInHandRendererMixin",
+        "LevelRendererMixin",
+        "ScreenMixin"
+    ],
+    "injectors": {
+      "defaultRequire": 1
+    }
+  }
+  
